@@ -365,6 +365,41 @@ Read-Host "`n按 Enter 键退出"
 3. 代码审查时关注 AI 标记
 ```
 
+## 🤖 Claude Code 配置
+
+### 配置文件：`.claude/config.json`
+
+```json
+{
+  "name": "codebuddy-workspace",
+  "context": {
+    "type": "multi-project",
+    "root": ".",
+    "projectsPath": "./projects",
+    "sharedPath": "./shared"
+  },
+  "collaboration": {
+    "sharedContext": true,
+    "syncWith": [".codebuddy", ".trae", ".lingma"],
+    "memoryPath": "./shared/.ai-memory"
+  }
+}
+```
+
+### Claude Code 职责
+
+- **深度分析**: 复杂算法、架构设计
+- **代码重构**: 大规模代码优化
+- **技术文档**: API 文档、设计文档
+- **协调其他 AI**: 任务分配、结果整合
+
+### 代码标记
+
+```typescript
+// [AI:Claude] 深度分析后的优化方案
+// [AI:Claude + CodeBuddy] 协作完成
+```
+
 ## 🔮 未来扩展
 
 计划支持更多 AI 工具：
