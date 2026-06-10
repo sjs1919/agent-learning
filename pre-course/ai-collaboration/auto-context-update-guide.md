@@ -45,7 +45,7 @@ shared/
 │   ├── project-contexts/           # 项目上下文目录
 │   │   ├── qwlogin.json
 │   │   ├── SpDataView.json
-│   │   └── RetroQuant.json
+│   │   └── vbenData.json
 │   ├── team-knowledge.json         # 团队知识库
 │   └── logs/                       # 更新日志
 │       └── context-update-2026-03-26.log
