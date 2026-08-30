@@ -160,7 +160,7 @@
 | 长任务步骤控制 | 课程主题 5 + week3 LangGraph | [`courses/从能回答到能办事-重点提炼.md`](从能回答到能办事-重点提炼.md) · [`week3/day3_5_guide.md`](../week3/day3_5_guide.md) | 有 iteration 上限，缺 todo/校验 |
 | 多 Agent 协作 | week4 多 Agent + 鉴权 | [`week4/day1_2_guide.md`](../week4/day1_2_guide.md) · [`week4/day3_5_guide.md`](../week4/day3_5_guide.md) | 有基础，缺动态分解 |
 | RAG 混合检索 | week2 RAG + BM25 + 重排 | [`week2/week2_代码深度解读.md`](../week2/week2_代码深度解读.md) | 有实现，缺结构化筛选 |
-| 可观测体系 | week5 tracer + exporter + cost | [`代码阅读指南`](../../demo/代码阅读指南.md) 第 12 层 | 有零件，缺告警/采样 |
+| 可观测体系 | week5 tracer + exporter + cost | [`代码阅读指南`](../11-manuals/代码阅读指南.md) 第 12 层 | 有零件，缺告警/采样 |
 | Agent 评测 | 美团图灵 Agent 评测文章 | [`courses/Agent评测漫谈-由浅入深讲解Agent评测.md`](Agent评测漫谈-由浅入深讲解Agent评测.md) | 刚整理，未接入 demo |
 | 企业级 Agent 入门 | 培训分享稿 | [`train/企业Agent开发入门-20260722.md`](../train/企业Agent开发入门-20260722.md) | 已学，需回炉到 demo |
 | 行业对标 | 12 家 Agent 公司深度分析 | [`hangye/README.md`](../hangye/README.md) | 已读，需提取 Harness 实践 |
