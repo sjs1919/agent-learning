@@ -30,9 +30,9 @@
 | Week 2 | 2026-07-08 | Agentic RAG / 混合检索 |
 | Week 3 | 2026-07 中 | LangGraph 多 Agent 编排 |
 | Week 4 | 2026-07 下 | ADK 代码执行器 / 多 Agent 协作 |
-| Week 5+ | 2026-08 | 排程排产全链路自动化 demo 落地 → 开源为 [flex-fab-agent](https://github.com/sjs1919/flex-fab-agent) |
+| Week 5+ | 2026-08 | 排程排产全链路自动化试生产项目落地 → 开源为 [flex-fab-agent](https://github.com/sjs1919/flex-fab-agent) |
 
 ## 说明
 
 - 提交历史完整保留自 2026-03-24 初始记录；早期培训按内容日期整理。
-- 学习落地的最佳示例：**排程排产 demo 已开源为 [flex-fab-agent](https://github.com/sjs1919/flex-fab-agent)**（CP-SAT 优化排产 + 自然语言操作 + 生产模拟 + 审批全流程）。
+- 学习落地的最佳示例：**排程排产试生产项目已开源为 [flex-fab-agent](https://github.com/sjs1919/flex-fab-agent)**（CP-SAT 优化排产 + 自然语言操作 + 生产模拟 + 审批全流程）。
