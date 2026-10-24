@@ -28,6 +28,15 @@
 | 测试 | → `stack-go/testing.md` |
 | 运维 / 优雅关闭 | → `stack-go/ops.md` |
 | 构建 / 服务重启 / 版本约束 | → `stack-go/build.md` |
+| Controller / Service / Repository 分层、微服务边界 | → `stack-java/arch.md` |
+| 异常处理 / 错误码 | → `stack-java/error.md` |
+| 日志 / traceId 透传 | → `stack-java/logging.md` |
+| MySQL / MyBatis-Plus / Flyway / BigDecimal / 事务 | → `stack-java/database.md` |
+| Redis / 缓存 / 分布式锁 | → `stack-java/redis.md` |
+| API 设计（URL/分页/统一响应） | → `stack-java/api.md` |
+| 测试（JUnit / Mockito / 分层） | → `stack-java/testing.md` |
+| 运维 / 健康检查 / 优雅关闭 | → `stack-java/ops.md` |
+| 构建 / Maven / 版本约束 / 启动 | → `stack-java/build.md` |
 | 前端组件 / 页面 / 状态管理 | → `stack-vue3/frontend-core.md` |
 | Python 分层 / 工具注册 / 数据源抽象 | → `stack-python/arch.md` |
 | Python 异常处理 / 工具返回值 | → `stack-python/error.md` |

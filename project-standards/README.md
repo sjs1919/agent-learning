@@ -1,6 +1,6 @@
 # 项目规范模板包
 
-`TEMPLATE_VERSION: 1.3`
+`TEMPLATE_VERSION: 1.4`
 
 新项目开箱即用的「双仓 + 规则 + 四门禁自动挡」体系：复制两个子模板 + 替换占位符，即可运转 spec → plan → todo → 四门禁全流程。
 
@@ -9,7 +9,7 @@
 | 概念层 | 物理位置 | 内容 |
 |--------|---------|------|
 | 通用协作层（语言无关） | `code-repo-template/rules/common/` | 工作流四门禁+两挡、对话规范、测试、部署、Git、文档流转、API 契约、服务器审批、技能集成（9 文件） |
-| 技术栈层（可插拔） | `code-repo-template/rules/stack-go/`、`stack-vue3/` | Go 9 文件 + Vue3 1 文件；新栈按「三步追加协议」扩展，common 永不改 |
+| 技术栈层（可插拔） | `code-repo-template/rules/stack-go/`、`stack-vue3/`、`stack-java/`、`stack-python/` | Go 9 文件 + Vue3 1 文件 + Java 9 文件 + Python 6 文件；新栈按「三步追加协议」扩展，common 永不改 |
 | 基础设施层（模板+骨架+执行层） | `docs-repo-template/` + `code-repo-template/`（入口与 `.claude/`、`.githooks/`） | 文档仓 13 目录骨架与流程模板；薄入口 CLAUDE/AGENTS、权限白名单、拦截 hook、提交校验 |
 
 ## 模板变更记录
@@ -34,6 +34,12 @@
 
 - 踩坑记录机制：`rules/common/pitfalls.md` — 项目内踩坑日志（`docs/pitfalls/`）遇坑即记，重复出现 ≥2 次升级为 rules 红线（标注来源），规范从实践中成长；与四门禁 CR 走读衔接
 - rules-index.md：新增 pitfalls 触发行（踩坑 / 教训沉淀 / 规范反哺）
+
+### [1.4] - 2026-10-24
+
+#### Added
+
+- stack-java 技术栈规则包（9 文件：arch/error/logging/database/redis/api/testing/ops/build）——首个 Java/Spring Cloud Alibaba 栈；来源 web3-wallet 项目初始化（Vue3 + Java/Spring Cloud 生态 + web3j 接链）
 
 ### [1.3] - 2026-08-22
 
